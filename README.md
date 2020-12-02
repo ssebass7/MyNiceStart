@@ -5,4 +5,4 @@
 
  splash | login | sign up
 -------|-------|------
-![](IMG/captura_splash.jpg)| ![](IMG/captura_login.jpg) | ![](IMG/captura_registro.jpg)
+![]<img src="IMG/captura_splash.jpg" width="200px">| ![]<img src="IMG/captura_login.jpg" width="200px">  | ![]<img src="IMG/captura_registro.jpg" width="200px"><
