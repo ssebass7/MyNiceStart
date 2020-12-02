@@ -3,6 +3,6 @@
 
 > Linux is love
 
-splash | login
--------|-------
-![]() | ![]()
+ splash | login | sign up
+-------|-------|------
+![](IMG/captura_splash.jpg)| ![](IMG/captura_login.jpg) | ![](IMG/captura_registro.jpg)
