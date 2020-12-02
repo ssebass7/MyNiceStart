@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <VideoView
+        android:id="@+id/back_registro"
+        android:layout_width="1150dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideLineVideoL"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <View
+        android:id="@+id/viewSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/scrim_login_signup"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewDogRegistro"
+        android:layout_width="243dp"
+        android:layout_height="206dp"
+        android:src="@drawable/registro_dog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/usernameTIL"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.8"
+        android:hint="username"
+        app:layout_constraintEnd_toEndOf="@id/guideLine2"
+        app:layout_constraintStart_toStartOf="@id/guideLine"
+        app:layout_constraintTop_toBottomOf="@+id/guideLineH">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordTIL"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:alpha="0.8"
+        android:hint="password"
+        app:layout_constraintEnd_toEndOf="@id/guideLine2"
+        app:layout_constraintStart_toStartOf="@id/guideLine"
+        app:layout_constraintTop_toBottomOf="@+id/usernameTIL">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailRegistro"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:alpha="0.8"
+        android:hint="email"
+        app:layout_constraintEnd_toEndOf="@id/guideLine2"
+        app:layout_constraintStart_toStartOf="@id/guideLine"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTIL">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bottomSignUp"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.8"
+        android:text="SIGN UP"
+        style="@style/ButtonStraight"
+        app:layout_constraintEnd_toEndOf="@id/guideLine2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/guideLine"
+        app:layout_constraintTop_toBottomOf="@+id/emailRegistro">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15"
+        ></androidx.constraintlayout.widget.Guideline>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85"
+        ></androidx.constraintlayout.widget.Guideline>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLineVideoL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="-0.70"></androidx.constraintlayout.widget.Guideline>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLineVideoR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1.50"></androidx.constraintlayout.widget.Guideline>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLineH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.43">
+
+    </androidx.constraintlayout.widget.Guideline>
+
+    <TextView
+        android:id="@+id/textIniciaSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Inicia Sesión"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guideLine2"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toEndOf="@+id/textSinFuncionR"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.813" />
+
+    <TextView
+        android:id="@+id/textSinFuncionR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif"
+        android:text="¿Ya tienes una cuenta?"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textRegistro"
+        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintStart_toStartOf="@id/guideLine"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.813" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
