@@ -7,4 +7,4 @@
 -------|-------|------
 ![]<img src="IMG/captura_splash.png"> | ![]<img src="IMG/captura_login.png">  | ![]<img src="IMG/captura_registro.png">
 -------|-------|------
-[VideoAplicacion](android.resource://VIDEO/video_emotions_login_registro.mp4)
+[VideoAplicacion](android.source://MyNiceStar/VIDEO/video_emotions_login_registro.mp4)
