@@ -12,30 +12,50 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
-
+/**Crea un Activity con animacion como presentacion de la app
+ * @author Sebastian Huete
+ * @see SplashScreen
+ */
 public class SplashScreen extends Activity {
-
+    /**
+     * Declaracion tipo Imagen de icono de la app
+     */
+    protected  ImageView logo;
+    /**
+     * Declaracion tipo Imagen establecido como fondo de interfaz
+     */
+    protected ImageView fondoSplScr;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //Ejecuta el archivo activity_splash_screen.xml
         setContentView(R.layout.activity_splash_screen);
-        ImageView logo = (ImageView) findViewById(R.id.logoApp);
+
+        //Inicializacion de "logo"
+        logo = (ImageView) findViewById(R.id.logoApp);
+        //Incializacion de la animacion "rotate" de "logo"
         Animation myAnimation = AnimationUtils.loadAnimation(this, R.anim.rotate);
         logo.startAnimation(myAnimation);
 
-        ImageView fondo = findViewById(R.id.back_dog_Food);
+        //Inicializacion de "fondoSplScr"
+        fondoSplScr = findViewById(R.id.back_dog_Food);
+        //Recolector de imagen en "fondoSplScr" mediante url
         Glide.with(this)
                 .load("https://images.unsplash.com/photo-1582798358481-d199fb7347bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80")
                 .centerCrop()
                 .transition(DrawableTransitionOptions.withCrossFade(500))
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.white)))
-                .into(fondo);
+                .into(fondoSplScr);
 
         openApp(true);
 
 
 
     }
+
+
+     //Metodo para establecer la transicion a "LoginActivity"
+     //y el tiempo de ejecucion
     private void openApp(boolean locationPermission) {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {

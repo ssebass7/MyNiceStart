@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <!--Imagen para foto de perfil-->
     <ImageView
         android:id="@+id/imageViewAvatar"
         android:layout_width="225dp"
@@ -16,6 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.208" />
 
+    <!--Lineas de guias para "layout"-->
     <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideLine"
             android:layout_width="wrap_content"
@@ -32,6 +34,7 @@
             app:layout_constraintGuide_percent="0.85"
             ></androidx.constraintlayout.widget.Guideline>
 
+    <!--Boton de confirmacion y transicion a MainActivity2-->
     <Button
         android:id="@+id/buttomConfirmar"
         android:layout_width="wrap_content"
