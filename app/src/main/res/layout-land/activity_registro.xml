@@ -29,6 +29,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <!--Imagen para el logo-->
+
+    <!--Campo de texto para nombre de usuario-->
     <ImageView
         android:id="@+id/imageViewDogRegistro"
         android:layout_width="131dp"
@@ -38,9 +40,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.054" />
+        app:layout_constraintVertical_bias="0.0" />
 
-    <!--Campo de texto para nombre de usuario-->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/usernameTIL"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -140,11 +141,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.3">
+        app:layout_constraintGuide_percent="0.27">
 
     </androidx.constraintlayout.widget.Guideline>
 
     <!--Textos para transicion a "Log in"-->
+
     <TextView
         android:id="@+id/textIniciaSesion"
         android:layout_width="wrap_content"
@@ -154,16 +156,16 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/guideLine2"
-        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintHorizontal_bias="0.097"
         app:layout_constraintStart_toEndOf="@+id/textSinFuncionR"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.931" />
+        app:layout_constraintVertical_bias="0.956" />
 
     <TextView
         android:id="@+id/textSinFuncionR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="152dp"
+        android:layout_marginStart="140dp"
         android:text="¿Ya tienes una cuenta?"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -171,7 +173,7 @@
         app:layout_constraintHorizontal_bias="0.658"
         app:layout_constraintStart_toStartOf="@id/guideLine"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.931" />
+        app:layout_constraintVertical_bias="0.956" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
