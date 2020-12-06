@@ -59,7 +59,7 @@
         android:id="@+id/usernameTIL"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:layout_height="55dp"
         android:layout_marginTop="16dp"
         android:alpha="0.8"
         android:hint="username"
@@ -70,6 +70,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="14sp"
             android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -78,7 +79,7 @@
         android:id="@+id/passwordTIL"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:layout_height="55dp"
         android:alpha="0.8"
         android:hint="password"
         app:layout_constraintEnd_toEndOf="@id/guideLine2"
@@ -88,6 +89,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="14sp"
             android:inputType="textPassword" />
 
     </com.google.android.material.textfield.TextInputLayout>
