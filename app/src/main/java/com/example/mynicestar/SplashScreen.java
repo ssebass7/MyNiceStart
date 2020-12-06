@@ -39,14 +39,15 @@ public class SplashScreen extends Activity {
 
         //Inicializacion de "fondoSplScr"
         fondoSplScr = findViewById(R.id.back_dog_Food);
+        String url ="https://images.unsplash.com/photo-1566431756727-c8e9212d0445?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80";
         //Recolector de imagen en "fondoSplScr" mediante url
         Glide.with(this)
-                .load("https://images.unsplash.com/photo-1582798358481-d199fb7347bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80")
+                .load(url)
                 .centerCrop()
                 .transition(DrawableTransitionOptions.withCrossFade(500))
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.white)))
                 .into(fondoSplScr);
-
+//"https://images.unsplash.com/photo-1582798358481-d199fb7347bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
         openApp(true);
 
 

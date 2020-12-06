@@ -9,7 +9,7 @@
         android:bottomRightRadius="30dip"
         android:bottomLeftRadius="0dip"
         />
-    <stroke android:width="8px" android:color="@color/colorAccent"/>
+    <stroke android:width="8px" android:color="@color/black"/>
     <solid android:color="#00ffffff"/>
     <padding
         android:left="5dp"
@@ -17,8 +17,8 @@
         android:top="5dp"
         android:bottom="5dp"/>
     <selector xmlns:android="http://schemas.android.com/apk/res/android">
-        <item android:drawable="@android:color/holo_orange_dark"
-            android:state_pressed="true" />
-        <item android:color="@color/white" />
+        <item android:state_pressed="true"
+            android:color="@color/grey"  />
+        <item android:color="@color/black" />
     </selector>
 </shape>

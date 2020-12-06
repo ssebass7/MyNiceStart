@@ -6,10 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- imagen de fondo de interfaz-->
     <ImageView
         android:id="@+id/back_dog_Food"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
+    <!--Para oscurecer imagen de fondo-->
     <View
         android:id="@+id/viewSplash"
         android:layout_width="match_parent"
@@ -21,6 +24,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--Para oscurecer imagen de fondo-->
     <ImageView
         android:id="@+id/logoApp"
         android:layout_width="154dp"

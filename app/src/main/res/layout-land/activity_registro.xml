@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
+    <!--Video para fondo de interfaz-->
     <VideoView
         android:id="@+id/back_registro"
         android:layout_width="match_parent"
@@ -15,6 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
          />
 
+    <!--Para degradar el fondo de interfaz-->
     <View
         android:id="@+id/viewSplash"
         android:layout_width="match_parent"
@@ -26,6 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--Imagen para el logo-->
     <ImageView
         android:id="@+id/imageViewDogRegistro"
         android:layout_width="131dp"
@@ -37,6 +40,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.054" />
 
+    <!--Campo de texto para nombre de usuario-->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/usernameTIL"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -56,6 +60,8 @@
             android:inputType="text"/>
 
     </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Campo de texto para contraseña-->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/passwordTIL"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -75,6 +81,7 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <!--Campo de texto para email-->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailRegistro"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -94,7 +101,7 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-
+    <!--Boton para "Sign Up"-->
     <com.google.android.material.button.MaterialButton
         android:id="@+id/bottomSignUp"
         android:layout_width="0dp"
@@ -111,6 +118,7 @@
 
     </com.google.android.material.button.MaterialButton>
 
+    <!--Lineas de guias para "layout"-->
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideLine"
         android:layout_width="match_parent"
@@ -136,6 +144,7 @@
 
     </androidx.constraintlayout.widget.Guideline>
 
+    <!--Textos para transicion a "Log in"-->
     <TextView
         android:id="@+id/textIniciaSesion"
         android:layout_width="wrap_content"

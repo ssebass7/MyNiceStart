@@ -45,7 +45,7 @@
         android:layout_marginBottom="366dp"
         android:background="@drawable/button_custom"
         android:text="GO"
-        android:textColor="@color/purple_200"
+        android:textColor="@color/black"
         app:backgroundTint="@android:color/transparent"
         app:backgroundTintMode="add"
         app:layout_constraintBottom_toBottomOf="parent"
