@@ -13,11 +13,10 @@
 <hr>
 
 ><b><i>ELEMENTOS</i></b><br>
-<h1><b>Menu Contextual</b></h1>
-<img src="IMG/menu_contextual.png">
+<h1><b>Menu Contextual</b></h1>         <h1><b>Menú AppBar</b></h1>
+<img src="IMG/menu_contextual.png">     <img src="IMG/menu_ appbar.png">
 
-<h1><b>Menú AppBar</b></h1>
-<img src="IMG/menu_ appbar.png">
+
 
 <h1><b>Menú BottomBar</b></h1>
 <img src="IMG/menu_bottombar.png">
