@@ -1,4 +1,4 @@
-package com.example.mynicestar;
+ package com.example.mynicestar;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -16,8 +16,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
+ import com.example.mynicestar.LoginActivity;
+ import com.example.mynicestar.R;
+ import com.example.mynicestar.SplashScreen;
 
-/**Crea un Activity con animacion y arranca el Sign Up.
+ /**Crea un Activity con animacion y arranca el Sign Up.
  *El cambio de imagen del icono simula el añadido de foto de perfil
  * @author Sebastian Huete
  * @see RegistroActivity
@@ -74,10 +77,12 @@ public class RegistroActivity extends AppCompatActivity {
             videofondoReg.start();
 
             //Url para foto de perfil despues de pulsar icono "iconoDog"
-            String pathIconReg =  "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+            String pathIconReg = "https://images.unsplash.com/photo-1546644719-338fa016d442?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=493&q=80";
+            //"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
             //Metodo de "iconoDog" para realizar cambio de foto en el icono de la interfaz "RegistroActivity"
             //para simular la seleccion de foto de perfil de usuario al ser pulsado
             //Centra y recorta la imagen
+
             iconoDog.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -118,5 +123,5 @@ public class RegistroActivity extends AppCompatActivity {
                 }
             });
         }
+     }
 
-}

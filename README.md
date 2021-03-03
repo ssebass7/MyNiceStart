@@ -1,7 +1,7 @@
 # MyNiceStar
 [ssebass7](https://github.com/search?q=ssebass7)
 
-> <b><i>Linux is love</i></b><br>
+><b><i>Linux is love</i></b><br>
 >En la carpeta "VIDEO" del proyecto, se encuentra un archivo multimedia donde se muestra la aplicacion. Ir a
 <a href="VIDEO/video_emotions_login_registro.mp4">Video</a>
 <hr>
@@ -10,3 +10,6 @@
 -------|-------|------
 ![]<img src="IMG/captura_splash.png"> | ![]<img src="IMG/captura_login.png">  | ![]<img src="IMG/captura_registro.png">
 
+
+><b><i>ELEMENTOS</i></b><br>
+Menu Contextual

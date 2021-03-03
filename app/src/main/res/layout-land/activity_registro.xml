@@ -31,19 +31,20 @@
     <!--Imagen para el logo-->
 
     <!--Campo de texto para nombre de usuario-->
+
     <ImageView
         android:id="@+id/imageViewDogRegistro"
-        android:layout_width="131dp"
-        android:layout_height="116dp"
-        android:src="@drawable/registro_dog"
+        android:layout_width="116dp"
+        android:layout_height="99dp"
+        android:src="@drawable/logo_perro_rayas_reg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.037" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/usernameTIL"
+        android:id="@+id/usernameSignUp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="55dp"
@@ -72,7 +73,7 @@
         android:hint="password"
         app:layout_constraintEnd_toEndOf="@id/guideLine2"
         app:layout_constraintStart_toStartOf="@id/guideLine"
-        app:layout_constraintTop_toBottomOf="@+id/usernameTIL">
+        app:layout_constraintTop_toBottomOf="@+id/usernameSignUp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"

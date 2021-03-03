@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:title="search"
+        android:icon="@android:drawable/ic_search_category_default"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView"
+        />
+
+    <item
+        android:title="heart"
+        android:id="@+id/camera"
+        android:icon="@drawable/ic_heart"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+
+        />
+
+</menu>

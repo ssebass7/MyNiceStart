@@ -13,7 +13,7 @@
         android:layout_height="match_parent"/>
 
     <!--Para oscurecer imagen de fondo-->
-    <View
+   <!-- <View
         android:id="@+id/viewSplash"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -23,8 +23,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <!--Para oscurecer imagen de fondo-->
+-->
+    <!--icono de App-->
     <ImageView
         android:id="@+id/logoApp"
         android:layout_width="154dp"
@@ -33,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/logo_perro_round"
+        android:src="@drawable/logo_blanco"
     />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
