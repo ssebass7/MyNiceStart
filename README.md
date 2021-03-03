@@ -8,8 +8,10 @@
 
  Splash | Log In | Sign Up
 -------|-------|------
-![]<img src="IMG/captura_splash.png"> | ![]<img src="IMG/captura_login.png">  | ![]<img src="IMG/captura_registro.png">
+<img src="IMG/captura_splash.png"> | <img src="IMG/captura_login.png">  | <img src="IMG/captura_registro.png">
 
+<hr>
 
 ><b><i>ELEMENTOS</i></b><br>
-Menu Contextual
+<h1><b>Menu Contextual</b></h1>
+<img src="IMG/menu_contextual.png">
