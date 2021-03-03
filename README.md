@@ -15,3 +15,19 @@
 ><b><i>ELEMENTOS</i></b><br>
 <h1><b>Menu Contextual</b></h1>
 <img src="IMG/menu_contextual.png">
+
+<h1><b>Menú AppBar</b></h1>
+<img src="IMG/menu_ appbar.png">
+
+<h1><b>Menú BottomBar</b></h1>
+<img src="IMG/menu_bottombar.png">
+
+<h1><b>SwipeRefreshLayout con SnackBar
+</b></h1>
+<img src="IMG/swiperefreshlayout_nackbar.png">
+
+<h1><b>Expandable Cardview</b></h1>
+<img src="IMG/expandable_ cardview.png">
+
+<h1><b>Alert / Modal Dialog</b></h1>
+<img src="IMG/alert_or_modal_dialog.png">
